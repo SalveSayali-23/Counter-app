@@ -1,0 +1,53 @@
+
+.main_div{
+  width:100%;
+  height: 100vh;
+  background: rgb(183, 241, 94);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center_div{
+  width: 25%;
+  height: 60vh;
+  background-color: rgb(247, 238, 227);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ h2{
+  color: white;
+  font-size: 30px;
+  background-color: rgb(10, 10, 77);
+  width: 100%;
+  padding:5px 0 2px 0 ;
+  margin-bottom: 10px;
+ }
+
+ button{
+  min-height: 40px;
+  background-color:rgb(10, 10, 77); 
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 0 15px;
+  margin-top: 30px;
+ }
+
+ button:hover{
+  background-color: rgb(74, 206, 206);
+ }
+
+ .btn_div{
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+ }
